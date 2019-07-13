@@ -1,2 +1,6 @@
 # sRNA-prediction
-Code and dataset for "Sequence-based bacterial small RNAs prediction using ensemble learning strategies"  Please kindly cite the paper if you use the code or the datasets
+Codes and datasets for the paper "Sequence-based bacterial small RNAs prediction using ensemble learning strategies".
+
+In this paper, we utilize a variety of sRNA sequence-derived features to develop ensemble learning methods for the sRNA prediction. First, we compile a balanced dataset and four imbalanced datasets. Then, we investigate various sRNA sequence-derived features, such as spectrum profile, mismatch profile, reverse compliment k-mer and pseudo nucleotide composition. Finally, we consider two ensemble learning strategies to integrate all features for building ensemble learning models for the sRNA prediction. One is the weighted average ensemble method (WAEM), which uses the linear weighted sum of outputs from the individual feature-based predictors to predict sRNAs. The other is the neural network ensemble method (NNEM), which trains a deep neural network by combining diverse features. In the computational experiments, we evaluate our methods on these five datasets by using 5-fold cross validation. WAEM and NNEM can produce better results than existing state-of-the-art sRNA prediction methods.
+
+Please kindly cite the paper if you use the codes or the datasets
